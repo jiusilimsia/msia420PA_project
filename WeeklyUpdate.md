@@ -44,12 +44,19 @@ The dataset consists of 36275 unique hotel booking records and 19 columns. The b
 
 ## Week3 Update
 ### Completed goals:
-- Implememented EDA on the data set in terms of variables distributions, correlations, and inspecting outliers. 
+- Implememented EDA on the data set in terms of variables distributions, correlations, and inspecting outliers.
 - Compared datasets with and without outliers.
 - One hot Encoding on categorical variables. 
-Note book for week3: 
+
+### Finding:
+- There are no features highly correlated with each other.
+- There is an imbalance in the number of `cancel` and `not cancel` for response variables.
+- There are some numeric variables are not normal and may need appropriate transformation.
+- There are some outliers within numeric variables, and we are considering whether we should remove them or not. We may compare the performance of models   to decide.
 
 ### Plan for next update:
-- Continue with feature engineering
-- Build a benchmark model
-- Compare models with and without outiers. 
+- For those categorical variables that have many types of values, we may combine several types so that we will have a denser training matrix after encoding. 
+- We may apply dimension reduction methods to reduce the number of features.
+- We may apply clustering methods to increase the performance of models if needed.
+- We may combine several similar features together if it is beneficial. 
+
