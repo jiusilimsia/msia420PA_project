@@ -42,3 +42,14 @@ The dataset consists of 36275 unique hotel booking records and 19 columns. The b
 - Start benchmark model
 
 
+## Week3 Update
+### Completed goals:
+- Implememented EDA on the data set in terms of variables distributions, correlations, and inspecting outliers. 
+- Compared datasets with and without outliers.
+- One hot Encoding on categorical variables. 
+Note book for week3: 
+
+### Plan for next update:
+- Continue with feature engineering
+- Build a benchmark model
+- Compare models with and without outiers. 
